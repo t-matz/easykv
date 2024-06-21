@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	"github.com/nats-io/nats.go"
 )
 

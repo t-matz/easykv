@@ -11,9 +11,9 @@ package etcd
 import (
 	"errors"
 
-	"github.com/HeavyHorst/easykv"
-	"github.com/HeavyHorst/easykv/etcd/etcdv2"
-	"github.com/HeavyHorst/easykv/etcd/etcdv3"
+	"github.com/t-matz/easykv"
+	"github.com/t-matz/easykv/etcd/etcdv2"
+	"github.com/t-matz/easykv/etcd/etcdv3"
 )
 
 // ErrUnknownAPILevel is returned if no valid api level is given

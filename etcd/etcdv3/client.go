@@ -14,7 +14,7 @@ import (
 
 	"context"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	"go.etcd.io/etcd/client/pkg/v3/transport"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

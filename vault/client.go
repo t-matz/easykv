@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	vaultapi "github.com/hashicorp/vault/api"
 )
 

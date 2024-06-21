@@ -17,7 +17,7 @@ import (
 
 	"time"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	"github.com/fsnotify/fsnotify"
 	"gopkg.in/yaml.v2"
 )

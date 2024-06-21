@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	"github.com/garyburd/redigo/redis"
 )
 

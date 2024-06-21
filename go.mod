@@ -1,4 +1,4 @@
-module github.com/HeavyHorst/easykv
+module github.com/t-matz/easykv
 
 go 1.16
 

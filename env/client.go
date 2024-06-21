@@ -17,7 +17,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 )
 
 var replacer = strings.NewReplacer("/", "_")

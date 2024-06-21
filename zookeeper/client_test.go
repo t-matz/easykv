@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HeavyHorst/easykv/testutils"
+	"github.com/t-matz/easykv/testutils"
 	"github.com/tevino/go-zookeeper/zk"
 
 	. "gopkg.in/check.v1"

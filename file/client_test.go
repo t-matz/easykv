@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HeavyHorst/easykv/testutils"
+	"github.com/t-matz/easykv/testutils"
 
 	. "gopkg.in/check.v1"
 )

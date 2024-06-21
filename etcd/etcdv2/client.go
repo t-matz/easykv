@@ -26,7 +26,7 @@ import (
 
 	"context"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	"go.etcd.io/etcd/client/v2"
 )
 

@@ -19,7 +19,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	"github.com/hashicorp/consul/api"
 )
 

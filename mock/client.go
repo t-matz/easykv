@@ -12,7 +12,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 )
 
 // Client is the mock client

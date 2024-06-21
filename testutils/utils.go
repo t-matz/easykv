@@ -11,7 +11,7 @@ package testutils
 import (
 	"context"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	"gopkg.in/check.v1"
 )
 

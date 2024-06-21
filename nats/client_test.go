@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HeavyHorst/easykv/testutils"
+	"github.com/t-matz/easykv/testutils"
 	"github.com/nats-io/nats-server/v2/server"
 	"github.com/nats-io/nats.go"
 

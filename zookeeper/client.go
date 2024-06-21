@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HeavyHorst/easykv"
+	"github.com/t-matz/easykv"
 	zk "github.com/tevino/go-zookeeper/zk"
 )
 
