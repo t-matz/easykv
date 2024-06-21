@@ -105,7 +105,9 @@ func (c *Client) WatchPrefix(ctx context.Context, prefix string, opts ...easykv.
 	defer cancel()
 	var err error
 
-	rch := c.client.Watch(etcdctx, prefix, clientv3.WithPrefix())
+	// rch := c.client.Watch(etcdctx, prefix, clientv3.WithPrefix())
+	// Watch all keys to support relative path keys
+	rch := c.client.Watch(etcdctx, "/", clientv3.WithPrefix())
 	for wresp := range rch {
 		if wresp.Err() != nil {
 			return options.WaitIndex, wresp.Err()
